@@ -1,5 +1,35 @@
 # Pertemuan 1
 
+# Table of contents
+
+- [Pertemuan 1](#pertemuan-1)
+- [Table of contents](#table-of-contents)
+- [Intro](#intro)
+  - [Requirement](#requirement)
+  - [Perbedaan Browser dan NodeJS](#perbedaan-browser-dan-nodejs)
+- [Node Fundamentals](#node-fundamentals)
+  - [Install Node](#install-node)
+  - [Menjalankan Node](#menjalankan-node)
+  - [Globals Object](#globals-object)
+  - [Modules](#modules)
+    - [Syntax Alternatif](#syntax-alternatif)
+    - [Built-in Modules](#built-in-modules)
+  - [NPM](#npm)
+    - [Install](#install)
+    - [Share Code](#share-code)
+    - [Package Nodemon](#package-nodemon)
+    - [Uninstall](#uninstall)
+  - [Event Loop](#event-loop)
+    - [Message Queue](#message-queue)
+    - [Job Queue](#job-queue)
+  - [Event Emitter](#event-emitter)
+  - [HTTP](#http)
+    - [HTTP Cycle](#http-cycle)
+    - [HTTP Methods](#http-methods)
+    - [HTTP Status](#http-status)
+    - [HTTP Headers](#http-headers)
+- [Referensi](#referensi)
+
 # Intro
 
 Apa itu NodeJS? NodeJS adalah environment untuk menjalankan Javascript di luar browser. Awalnya, Javascript hanya dapat dijalankan pada browser (pada console). Kemudian, NodeJS dibuat dengan menggunakan Chrome V8 JS Engine (mesin untuk menjalankan Javascript pada Google Chrome).
